@@ -1,4 +1,4 @@
-import javax.swing.*;
+import javax.import javax.swing.*;
 import java.util.Scanner;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -120,7 +120,7 @@ public class LoginWindow {
                     JOptionPane.showMessageDialog(null, "Successfully logged in, Continue to Console");
                     System.out.println("Enter 1 for beginner, 2 for intermediate, 3 for hard mode:");
                     Scanner scanner = new Scanner(System.in);
-                    int gamelevel = scanner.nextInt();
+                    int gamelevel= scanner.nextInt();
                     // Perform any required action after successful login.
                     questions.runQuestions(user, gamelevel);
                 }
@@ -134,4 +134,4 @@ public class LoginWindow {
         }
     }
 
-}
+}}
